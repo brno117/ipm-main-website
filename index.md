@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Bootstrap 4 Github Pages
 ---
 
