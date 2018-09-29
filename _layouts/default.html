@@ -7,11 +7,25 @@
 
     {%- include header.html -%}
 
-    <div class="py-5">
-      <div class="container page-content">
-          {{ content }}
-      </div>
-    </div>
+    <nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Progress</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:brunop.ramos94@gmail.com">Email</a></li>
+	        		<li><a href="https://github.com/brno117">github.com/brno117</a></li>
+				</ul>
+			</footer>
 
     {%- include footer.html -%}
 
